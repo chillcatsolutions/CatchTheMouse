@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://b6u8it5cvj24j"]
+
+[ext_resource type="Texture2D" uid="uid://cniy0x7w1f4ka" path="res://enemy/enemy.png" id="1_6orso"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_losk4"]
+size = Vector2(16, 16)
+
+[node name="Enemy" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_6orso")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_losk4")
+
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
+path_postprocessing = 1
