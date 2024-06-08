@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://b75ewgejbam0g"]
+
+[ext_resource type="Script" path="res://scripts/level_border_trigger.gd" id="1_bm5ou"]
+
+[node name="LevelBorderTrigger" type="Area2D"]
+script = ExtResource("1_bm5ou")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="move_camera_to_level_section" from="." to="." method="_on_move_camera_to_level_section"]

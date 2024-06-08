@@ -62,7 +62,7 @@ _data = {
 "walk": SubResource("Animation_s2dia")
 }
 
-[node name="Player" type="CharacterBody2D"]
+[node name="Player" type="CharacterBody2D" groups=["player"]]
 script = ExtResource("1")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
