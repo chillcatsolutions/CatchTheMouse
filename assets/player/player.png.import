@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cogtpve1trf2b"
-path="res://.godot/imported/cat_walk_cycle.jpg-996182706dc6fa545ffbdc3c60c1e21a.ctex"
+uid="uid://dfb8rr2fakwgp"
+path="res://.godot/imported/player.png-e230e05e2d932a710303ee07f401e40f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://player/cat_walk_cycle.jpg"
-dest_files=["res://.godot/imported/cat_walk_cycle.jpg-996182706dc6fa545ffbdc3c60c1e21a.ctex"]
+source_file="res://assets/player/player.png"
+dest_files=["res://.godot/imported/player.png-e230e05e2d932a710303ee07f401e40f.ctex"]
 
 [params]
 

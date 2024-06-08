@@ -29,8 +29,6 @@ func _physics_process(delta):
 		sprite_2d.scale.x = 0.2
 	else:
 		sprite_2d.scale.x = -0.2
-		
-	print('facingRight', facingRight)
 	
 	# Slow down the player if they're not trying to move.
 	if abs(walk) < WALK_FORCE * 0.2:

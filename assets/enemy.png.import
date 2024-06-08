@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cnna37twjugqm"
-path="res://.godot/imported/tilemap_catch_the_mouse.png-a7e09d89b7ae1de0d4a30ba09696239d.ctex"
+uid="uid://cniy0x7w1f4ka"
+path="res://.godot/imported/enemy.png-63f114c7bb3f2105c232c34f647cbc2d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tilemap_catch_the_mouse.png"
-dest_files=["res://.godot/imported/tilemap_catch_the_mouse.png-a7e09d89b7ae1de0d4a30ba09696239d.ctex"]
+source_file="res://assets/enemy.png"
+dest_files=["res://.godot/imported/enemy.png-63f114c7bb3f2105c232c34f647cbc2d.ctex"]
 
 [params]
 

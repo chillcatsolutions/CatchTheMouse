@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bt6l3jipoklve"
-path="res://.godot/imported/cat_walk_cycle_ x10.png-a6af4ab30fbf85ece0532f08eab27ccc.ctex"
+uid="uid://cs8h2qyuakmko"
+path="res://.godot/imported/obstacle.png-f5c382738cbe5ab3697207da5223e057.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://player/cat_walk_cycle_ x10.png"
-dest_files=["res://.godot/imported/cat_walk_cycle_ x10.png-a6af4ab30fbf85ece0532f08eab27ccc.ctex"]
+source_file="res://assets/level/obstacle.png"
+dest_files=["res://.godot/imported/obstacle.png-f5c382738cbe5ab3697207da5223e057.ctex"]
 
 [params]
 
