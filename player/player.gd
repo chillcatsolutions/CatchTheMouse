@@ -6,12 +6,32 @@ const STOP_FORCE = 1300
 const JUMP_SPEED = 390
 var secondJump = false
 var jumpFromWall = false
+var facingRight = true
 
 @onready var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
+@onready var sprite_2d = $Sprite2D
+@onready var animation_player = $AnimationPlayer
 
 func _physics_process(delta):
 	# Horizontal movement code. First, get the player's input.
 	var walk = WALK_FORCE * (Input.get_axis(&"move_left", &"move_right"))
+		
+	if Input.is_action_pressed("move_left"):
+		facingRight = false
+		animation_player.play("walk")
+	elif Input.is_action_pressed("move_right"):
+		facingRight = true
+		animation_player.play("walk")
+	else:
+		animation_player.play("iddle")
+	
+	if facingRight:
+		sprite_2d.scale.x = 0.2
+	else:
+		sprite_2d.scale.x = -0.2
+		
+	print('facingRight', facingRight)
+	
 	# Slow down the player if they're not trying to move.
 	if abs(walk) < WALK_FORCE * 0.2:
 		# The velocity, slowed down a bit, and then reassigned.

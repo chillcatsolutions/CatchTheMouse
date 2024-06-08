@@ -79,7 +79,7 @@ func _on_next_level_reached(body: Node2D) -> void:
 	if ( player.position.y <= 8 and player.position.y > -464 ):
 		current_level = 2
 	
-	if ( player.position.y <= -460 ):
+	if ( player.position.y <= -440 ):
 		current_level = 3
 	
 	#camera_2d.translate(Vector2(0, -400))
